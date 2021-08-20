@@ -5,8 +5,8 @@ files:
     destination: /var/www/html/pipeline_aws/
 permissions:
   - object: /var/www/html/pipeline_aws
-  owner: ubuntu
-  group: ubuntu
-  type:
-    - directory
-    - file
+    owner: ubuntu
+    group: ubuntu
+    type:
+      - directory
+      - file
